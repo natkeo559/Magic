@@ -1,4 +1,4 @@
-Fri Feb  4 00:42:49 2022    bench.data
+Mon Apr 18 15:20:57 2022    bench.data
 
          1262743 function calls (1211430 primitive calls) in 1.510 seconds
 
