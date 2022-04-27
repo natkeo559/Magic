@@ -8,6 +8,6 @@ Then run this file.
 '''
 
 with open("profile.txt", "w") as f:
-    p = pstats.Stats('bench.data', stream=f)
+    p = pstats.Stats('bench.data', stream=f).strip_dirs()
     p.sort_stats('cumulative')
     p.print_stats()
